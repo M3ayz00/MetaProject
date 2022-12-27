@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(29, 170, 128);
     font-family: 'Courier New', Courier, monospace;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -13,4 +13,32 @@ h1{
 
 h2{
     font-size: 2rem;
+}
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6 em;
+    height: 3em;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+section {
+    display: flex;
+}
+article {
+    flex: 1;
+}
+footer {
+    display: flex;
+}
+footer div {
+    flex: 1;
 }
