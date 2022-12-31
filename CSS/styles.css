@@ -1,5 +1,6 @@
 
 body{
+<<<<<<< HEAD
     background-color: rgb(255, 254, 198);
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -10,6 +11,53 @@ body{
     
 }
 main{
+=======
+    background-color: rgb(252, 250, 198);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+header{
+    background-color: rgb(252, 250, 198);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.article1{
+    border-radius: 3%;
+    background-image: url(../RESOURCES/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: show-up-animation 0.7s ease-out;
+    
+}
+.article-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.book-btn{
+    background-color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    margin-right: 10%;
+}
+.book-btn a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+main{
+    display: flex 1fr 3fr 1fr;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 9rem;
+>>>>>>> branch1
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -34,6 +82,10 @@ nav ul {
     list-style: none;
     text-align: center;
     gap: 2rem;
+<<<<<<< HEAD
+=======
+    margin: 0;
+>>>>>>> branch1
     background-color: lightcoral;
 }
 
@@ -47,17 +99,40 @@ nav li {
 }
 section {
     display: flex;
+    
 }
 article {
     flex: 1;
 }
 footer {
     display: flex;
+<<<<<<< HEAD
     background-color: rgb(57, 62, 66);
 }
 .footer-img{
     width: auto;
     height: 6rem;
+=======
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(168, 88, 88, 0.925);
+}
+.tutorial-img{
+    width: 20rem;
+    height: auto;
+    margin-bottom: 0;
+}
+.services-img{
+    width: 20rem;
+    height: auto;
+    margin-bottom: 0;
+}
+.footer-img{
+    flex: 1;
+    width: 15rem;
+    height: auto;
+>>>>>>> branch1
     margin-bottom: 0;
 }
 footer div {
@@ -98,6 +173,9 @@ img{
         opacity: 1;
     }
 }
+<<<<<<< HEAD
 .slide-p{
     animation: show-up-animation 1.5s ease-out;
 }
+=======
+>>>>>>> branch1
