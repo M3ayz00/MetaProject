@@ -10,7 +10,7 @@ body{
 nav{
     width: 110%;
     border: 3px solid black;
-    background-color: black;
+    overflow: hidden;
 }
 
 h1{
@@ -55,7 +55,6 @@ footer div {
 }
 .nav-li{
     color: rgb(29, 170, 128);
-    background-color: black;
 }
 nav li:hover {
     border: 2px solid black;
@@ -74,4 +73,10 @@ nav li:hover {
   }
   img{
     margin-bottom: 50px;
+    width: 50vw;
+    height: auto;
+  }
+  .header-img{
+    display: flex;
+    flex-wrap: wrap;
   }
