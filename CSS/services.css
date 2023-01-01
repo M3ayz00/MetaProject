@@ -1,0 +1,21 @@
+.bg-img1{
+    padding: 30%;
+    background-image: url(../RESOURCES/color-hair1.jpg);
+    background-color: rgb(156, 148, 148);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.sec-bg-img1{
+    display: flex 1fr;
+}
+.bg-img2{
+    padding: 30%;
+    background-image: url(../RESOURCES/hair-samples.jpg);
+    background-color: rgb(156, 148, 148);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#main1{
+    margin:0;
+    padding-top: 10%;
+}
