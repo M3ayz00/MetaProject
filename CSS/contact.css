@@ -1,0 +1,15 @@
+#main11{
+    margin:0;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+.bg-img11{
+    flex: 1;
+    padding:25%;
+    background-image: url(../RESOURCES/hair-wash.jpg);
+    background-color: rgb(156, 148, 148);
+    background-blend-mode: multiply;
+    background-size: cover;
+}

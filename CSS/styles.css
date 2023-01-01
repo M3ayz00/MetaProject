@@ -6,16 +6,17 @@ body{
 }
 header{
     background-color: rgb(252, 250, 198);
-    position: fixed;
     width: 100%;
     padding-top: auto;
+<<<<<<< HEAD
     z-index: 1000;
+=======
+>>>>>>> branch1
 }
 main{
     display: flex 1fr 3fr 1fr;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 9rem;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -88,4 +89,8 @@ img{
     display: flex;
     align-items: center ;
     justify-content: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch1

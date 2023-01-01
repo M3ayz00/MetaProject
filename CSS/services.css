@@ -1,10 +1,24 @@
+<<<<<<< HEAD
 .bg-img1{
+=======
+#main1{
+    margin:0;
+}
+/*1st image*/
+article{
+    display: flex;
+    flex-direction: column;
+}
+.bg-img1{
+    flex: 1;
+>>>>>>> branch1
     padding: 30%;
     background-image: url(../RESOURCES/color-hair1.jpg);
     background-color: rgb(156, 148, 148);
     background-blend-mode: multiply;
     background-size: cover;
 }
+<<<<<<< HEAD
 .sec-bg-img1{
     display: flex 1fr;
 }
@@ -19,3 +33,40 @@
     margin:0;
     padding-top: 10%;
 }
+=======
+.bg-img1 p{
+    color: white;
+    font-weight:600;
+}
+.sec-bg-img1{
+    animation: fadeIn 2s; /* Fade in over a duration of 2 seconds */
+    animation-fill-mode: forwards; /* Keep the image at its final state after the animation */
+    
+}
+
+
+/*2nd image*/
+.bg-img2{
+    color: white;
+    background-image: url(../RESOURCES/hair-samples.jpg);
+    background-color: rgb(87, 86, 86);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+
+  /*ANIMATIONS*/
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+>>>>>>> branch1
