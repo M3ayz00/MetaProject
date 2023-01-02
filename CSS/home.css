@@ -74,7 +74,10 @@ article {
     justify-content: center;
     box-shadow: 0px 0px 3px 0px;
 }
-
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .sec-3ar > article > p{
     padding: 3em;
 }
