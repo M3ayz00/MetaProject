@@ -38,6 +38,9 @@ article{
     justify-content: center;
     gap: 15%;
 }
+.hair-list{
+  max-width: 29vh;
+}
 
 
   /*ANIMATIONS*/
