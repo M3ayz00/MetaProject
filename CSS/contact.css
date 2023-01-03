@@ -7,8 +7,9 @@ article{
 }
 .bg-img11{
     color: white;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 600;
+    line-height: 4rem;
     flex: 1;
     padding:25%;
     background-image: url(../RESOURCES/hair-wash.jpg);
@@ -17,7 +18,26 @@ article{
     background-size: cover;
     min-height: 7vh;
 }
-.thanks{
-    display: flex 1fr 1fr;
+#thanks{
+    background-color: rgb(252, 250, 198);
+    padding: 5vh;
+    display: flex ;
     justify-content: space-between;
+    min-height: 7vh;
+    gap: 5vh;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.thanks-img, .thanks-text{
+    flex: 1;
+
+}
+.thanks-text p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.thanks-text h4{
+    font-size: 3rem;
+    margin: 0;
+    line-height: 4rem;
 }
