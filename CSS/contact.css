@@ -57,7 +57,14 @@ article{
     padding-left: 10vh;
     padding-right: 10vh;
 }
+span{
+    font-weight: 600;
+}
 .contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     color: black;
     background-color: white;
     position: absolute;
