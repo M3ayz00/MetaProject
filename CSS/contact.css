@@ -50,26 +50,17 @@ article{
     background-color: rgb(104, 94, 94);
     background-blend-mode: multiply;
     background-size: cover;
-    min-height: 100vh;
-    position: relative;
 }
-.nothing{
-    padding-left: 10vh;
-    padding-right: 10vh;
-}
+
 span{
     font-weight: 600;
 }
 .contact-info{
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;   
     align-items: center;
     justify-content: center;
-    color: black;
-    background-color: white;
-    position: absolute;
-    bottom: 10em;
-    left: 30em;
-    right: 30em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10vh;
 
 }
