@@ -63,7 +63,7 @@ footer {
     margin-bottom: 0;
     margin-left: 3em;
 }
-footer div {
+footer > div {
     flex: 1;
 }
 nav ul li:hover{
@@ -76,6 +76,7 @@ li a:hover{
 li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+    font-size: 1.38em;
 }
 img{
     width: 50vw;
@@ -85,4 +86,7 @@ img{
     display: flex;
     align-items: center ;
     justify-content: center;
+}
+footer > div > p {
+    font-size: 1.6em;
 }
