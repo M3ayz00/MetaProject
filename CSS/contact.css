@@ -33,8 +33,8 @@ article{
 
 }
 .thanks-text p{
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 4rem;
 }
 .thanks-text h4{
     font-size: 3rem;
@@ -45,31 +45,23 @@ article{
 .bg-img-12{
     color: white;
     line-height: 4rem;
+    font-size: 1.2rem;
     flex: 1;
     background-image: url(../RESOURCES/hair-tools.jpg);
     background-color: rgb(104, 94, 94);
     background-blend-mode: multiply;
     background-size: cover;
-    min-height: 100vh;
-    position: relative;
 }
-.nothing{
-    padding-left: 10vh;
-    padding-right: 10vh;
-}
+
 span{
     font-weight: 600;
 }
 .contact-info{
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;   
     align-items: center;
     justify-content: center;
-    color: black;
-    background-color: white;
-    position: absolute;
-    bottom: 10em;
-    left: 30em;
-    right: 30em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10vh;
 
 }

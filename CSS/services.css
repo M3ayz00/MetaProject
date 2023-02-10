@@ -16,7 +16,9 @@ article{
 }
 .bg-img1 p{
     color: white;
-    font-weight:600;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 4rem;
 }
 .sec-bg-img1{
     animation: fadeIn 2s; /* Fade in over a duration of 2 seconds */
@@ -37,6 +39,7 @@ article{
     align-items: center;
     justify-content: center;
     gap: 15%;
+    font-size: 1.2em;
 }
 .hair-list{
   max-width: 29vh;

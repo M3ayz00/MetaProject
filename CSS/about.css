@@ -1,0 +1,10 @@
+section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Art > div > h3 {
+    color: gray;
+}
+

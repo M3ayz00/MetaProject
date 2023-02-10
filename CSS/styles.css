@@ -51,8 +51,6 @@ nav li {
 }
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     background-color: rgba(168, 88, 88, 0.925);
 }
@@ -63,8 +61,10 @@ footer {
     margin-bottom: 0;
     margin-left: 3em;
 }
-footer div {
+footer > div {
     flex: 1;
+    text-align: end;
+    margin-right: 10vw;
 }
 nav ul li:hover{
     background-color: rgba(150, 37, 37, 0.795);
@@ -76,6 +76,7 @@ li a:hover{
 li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+    font-size: 1.38em;
 }
 img{
     width: 50vw;
@@ -85,4 +86,14 @@ img{
     display: flex;
     align-items: center ;
     justify-content: center;
+}
+footer > div > p {
+    font-size: 1.6em;
+    flex: 1;
+    align-items: flex-end;
+}
+.pixou{
+    flex: 1;
+    text-align: start;
+    margin-right: 10vw;
 }
